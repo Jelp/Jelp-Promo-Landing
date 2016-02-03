@@ -1,0 +1,86 @@
+body {
+  background: #d40041;
+}
+
+html {
+  font-family: "Roboto";
+}
+
+.promo-container {
+  padding: 0px !important;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+
+  width: 80%;
+  height: 553px !important;
+
+  background: red;
+  color: white;
+  text-align: center;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+}
+
+.slider-container {
+  padding: 0px !important;
+  background-color:; blue;
+
+}
+
+.info-container {
+  padding: 15px 0px !important;
+  background-color: #323232;
+  height: 553px;
+  text-align: left !important;
+
+}
+.slider {
+  padding: 0 !important;
+  height: 553px !important;
+}
+
+ul.slides {
+  height: 553px !important;
+  z-index: -9999 !important;
+}
+
+ul.indicators {
+  z-index: 9999 !important;
+}
+
+.promo-description {
+  padding: 15px;
+  margin-top: 60px;
+  background-color: rgba(239, 239, 239, 0.05) !important;
+  height: 220px;
+}
+-
+.price-container {
+  margin-bottom: 0px !important;
+  background: #212121 !important;
+}
+
+.promo-title {
+  font-size: 22px;
+  color: #ffffff;
+}
+
+.promo-slogan {
+  font-size: 18px !important;
+  color: #979797 !important;
+}
+
+/* CSS */
+@media only screen and (max-width: 38em){
+  /* Styles for small and medium go here */
+  .slider {
+    padding: 0 !important;
+    height: 290px !important;
+  }
+
+  ul.slides {
+    height: 290px !important;
+    z-index: -9999 !important;
+  }
+}
