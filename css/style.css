@@ -71,9 +71,8 @@ ul.indicators {
   color: #979797 !important;
 }
 
-/* CSS */
-@media only screen and (max-width: 38em){
-  /* Styles for small and medium go here */
+@media (min-width:320px) {
+/* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
   .slider {
     padding: 0 !important;
     height: 290px !important;
@@ -82,5 +81,57 @@ ul.indicators {
   ul.slides {
     height: 290px !important;
     z-index: -9999 !important;
+  }
+
+  .promo-description {
+    margin-top: 20px;
+    overflow: auto;
+  }
+
+  .price-tag {
+    font-size: 14px !important;
+  }
+
+}
+@media (min-width:480px) {
+/* smartphones, Android phones, landscape iPhone */
+  .slider {
+    padding: 0 !important;
+    height: 290px !important;
+  }
+
+  ul.slides {
+    height: 290px !important;
+    z-index: -9999 !important;
+  }
+
+  .promo-description {
+    margin-top: 20px;
+  }
+
+  .price-container .row {
+    padding-left: 0px !important; padding-right: 0px !important;
+    padding-top: 15px !important;
+  }
+
+  .price-tag {
+    font-size: 22px !important;
+  }
+
+}
+@media (min-width:600px) {
+/* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
+.slider {
+    padding: 0 !important;
+    height: 553px !important;
+  }
+
+  ul.slides {
+    height: 553px !important;
+    z-index: -9999 !important;
+  }
+
+  .promo-description {
+    margin-top: 60px;
   }
 }
